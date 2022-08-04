@@ -20,3 +20,7 @@ greet <FirstName> <Secondname>
 ```
 
 or run `greet --help` to see other options.
+
+Documentation:
+
+See the GitHub pages site: https://alan-turing-institute.github.io/Greetings/ (which is built using the action in `.github/workflows/docs.yml`).
