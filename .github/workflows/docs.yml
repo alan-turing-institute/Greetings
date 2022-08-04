@@ -16,7 +16,7 @@ jobs:
     - name: Build docs
       run: sphinx-build docs docs/output
     - name: Deploy documentation to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@5dc1d5a192aeb5ab5b7d5a77b7d36aea4a7f5c92 # This is version 4.1.4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages                     # The branch the action should deploy to.
         folder: docs/output                       # The folder the action should deploy.
